@@ -3,6 +3,7 @@ body { margin:0; font-family: Inter, Arial, sans-serif; background:#fff; color:#
 a { color: #0070f3; text-decoration: none }
 button { background:#0070f3; color:white; border:none; padding:6px 10px; border-radius:6px }
 input { padding:8px; border-radius:6px; border:1px solid #ccc }
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 /* Lista de presentes */
 ul.gift-list {
   padding: 0;
@@ -112,7 +113,7 @@ button:disabled {
 
 
 main {
-  padding-top: 100px !important; /* ajusta conforme a altura do header */
+  padding-top: 0px !important; /* ajusta conforme a altura do header */
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box; /* evita que padding quebre o layout */
@@ -247,4 +248,44 @@ ul.gift-list .pix-item {
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
+}
+
+.openning {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.openning img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+    opacity: 0.5; /* 0 = transparente, 1 = opaco */
+}
+
+.openning .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.openning .text-overlay h1,
+.openning .text-overlay p {
+  margin: 0; /* remove margens padrão */
+  text-shadow: 
+    2px 2px 4px black,
+   -2px 2px 4px black,
+    2px -2px 4px black,
+   -2px -2px 4px black; /* borda do texto */
+}
+
+.openning .text-overlay h1 {
+  font-family: 'Georgia', serif; /* exemplo de fonte serif */
+  font-size: 5rem;               /* tamanho do h1 */
+  font-weight: bold;             /* opcional */
+  color: #e4f5fa;
 }

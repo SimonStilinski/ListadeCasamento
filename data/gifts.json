@@ -13,7 +13,9 @@
     "link": "https://www.piticas.com.br/camisetas?gad_source=1&gad_campaignid=21417053408&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp2vP31Mo_UC8I_0Fb8LOsbQ1XhtyTYtknA0Ecj8zgUfRW01SExKGBYaAruoEALw_wcB",
     "image": "https://i.imgur.com/4L8mfqs.png",
     "comprado_por": "",
-    "order": 2
+    "order": 2,
+    "comprado": false,
+    "email": "thiagovict.16@gmail.com"
   },
   {
     "id": 7,
