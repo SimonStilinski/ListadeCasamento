@@ -42,14 +42,6 @@ ul.gift-list li:hover {
   color: #fff;
 }
 
-.gift-image {
-  width: 100%;
-  height: 263px;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 8px;
-}
-
 .gift-button.marcar { background-color: #0097b2; }
 .gift-button.desmarcar { background-color: #f9a825; }
 .gift-button.remover { background-color: #e53935; }
@@ -61,11 +53,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky; /* fica preso no topo */
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;   /* ocupa a tela toda */
+  box-sizing: border-box; /* respeita o padding */
   z-index: 1000;
 }
-
 header h1 {
   margin: 0;
   font-size: 1.4rem;
@@ -83,8 +77,8 @@ header nav a:hover {
 }
 
 .gift-image {
-  width: 297px;
-  height: 297px;
+  width: 100%;
+  height: 263px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 8px;
@@ -95,19 +89,31 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.site-footer {
-  background: #0097b2;
+.gift-link {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 8px;
+  background-color: #4CAF50;
   color: white;
-  padding: 16px 24px;
-  text-align: center;
-  margin-top: 40px;
-  border-radius: 8px 8px 0 0;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
 }
 
-.site-footer .contact {
-  margin-bottom: 8px;
+.gift-link:hover {
+  background-color: #45a049;
 }
 
-.site-footer .copyright {
-  font-size: 0.9rem;
+.gift-link:active {
+  background-color: #3e8e41;
+}
+
+main {
+  padding-top: 100px !important; /* ajusta conforme a altura do header */
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box; /* evita que padding quebre o layout */
+  max-width: 1200px; /* ou o tamanho que você quiser */
+  margin: 0 auto; /* centraliza */
 }

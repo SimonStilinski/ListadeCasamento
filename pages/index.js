@@ -54,7 +54,14 @@ export default function Home() {
               <div>
                 <img src={g.image} alt={g.name} className="gift-image" />
                 <h3>{g.name}</h3>
-                <a href={g.link} target="_blank" rel="noreferrer">Ir para o link</a>
+                <a
+  href={g.link}
+  target="_blank"
+  rel="noreferrer"
+  className="gift-link"
+>
+  Ir para o link
+</a>
               </div>
               <button
                 className={`gift-button ${g.comprado ? 'desmarcar' : 'marcar'}`}
