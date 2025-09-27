@@ -35,12 +35,20 @@
     "id": "1758962429078"
   },
   {
+    "id": 8,
+    "name": "Controle Nintendo Switch Pro Controller - HACAFSSK2",
+    "link": "https://www.kabum.com.br/produto/178103/controle-nintendo-switch-pro-controller-hacafssk2?utm_id=22436571796&gad_source=1&gad_campaignid=22436571796&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp0pS5xUeVngL8ynxzAuY2pOxCJKpdJkyHsUJp_3w4cDzGnwHGBnKz0aAtCcEALw_wcB",
+    "image": "https://i.imgur.com/RCp9Eaz.png",
+    "comprado_por": "",
+    "order": 5
+  },
+  {
     "id": 9,
     "name": "Fritadeira Philco Air Fryer Oven 12L PFR2200P - 127V",
     "link": "https://www.amazon.com.br/Fritadeira-Oven-PFR2200P-Philco-220v/dp/B08R93TVRG/ref=asc_df_B08R91NTHY?mcid=01b08e15c72234a4932cb3d370f7ac9c&tag=googleshopp00-20&linkCode=df0&hvadid=709968341038&hvpos=&hvnetw=g&hvrand=10820389954603413330&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198558&hvtargid=pla-1457688270951&language=pt_BR&gad_source=1&th=1",
     "image": "https://i.imgur.com/3BgTK9G.png",
     "comprado_por": "",
-    "order": 5
+    "order": 6
   },
   {
     "id": 14,
@@ -48,7 +56,7 @@
     "link": "https://www.daju.com.br/produto/edredom-harlem-queen-daju-88889",
     "image": "https://i.imgur.com/5oNOa64.png",
     "comprado_por": "",
-    "order": 6
+    "order": 7
   },
   {
     "id": 12,
@@ -56,21 +64,13 @@
     "link": "https://www.amazon.com.br/Chaleira-Elétrica-Electrolux-Efficient-EEK10/dp/B09CBXQFYY/ref=asc_df_B09CBTSBQL?mcid=9a1c2ef68abd372584a12d14a56c057e&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=10216206591222736554&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198558&hvtargid=pla-1519241764002&language=pt_BR&gad_source=1&th=1",
     "image": "https://i.imgur.com/FziJR3A.png",
     "comprado_por": "",
-    "order": 7
+    "order": 8
   },
   {
     "id": 10,
     "name": "Cafeteira Espresso Versa Vermelha Automática - TRES 3 Corações",
     "link": "https://www.mercafe.com.br/cafeteira-espresso-versa-vermelha-tres-3-coracoes-20039217/p",
     "image": "https://i.imgur.com/7TiMqn2.png",
-    "comprado_por": "",
-    "order": 8
-  },
-  {
-    "id": 8,
-    "name": "Controle Nintendo Switch Pro Controller - HACAFSSK2",
-    "link": "https://www.kabum.com.br/produto/178103/controle-nintendo-switch-pro-controller-hacafssk2?utm_id=22436571796&gad_source=1&gad_campaignid=22436571796&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp0pS5xUeVngL8ynxzAuY2pOxCJKpdJkyHsUJp_3w4cDzGnwHGBnKz0aAtCcEALw_wcB",
-    "image": "https://i.imgur.com/RCp9Eaz.png",
     "comprado_por": "",
     "order": 9
   },
@@ -83,20 +83,12 @@
     "order": 10
   },
   {
-    "id": 5,
-    "name": "Restam  15 un. Redragon (1591) Headset Gamer Redragon Zeus X, Chroma Mk.II, RGB, Som Surround 7.1, Drivers 53mm, USB, Preto e Vermelho - H510-RGB",
-    "link": "https://www.kabum.com.br/produto/227818/headset-gamer-redragon-zeus-x-chroma-mk-ii-rgb-som-surround-7-1-drivers-53mm-usb-preto-e-vermelho-h510-rgb",
-    "image": "https://i.imgur.com/qSW6ZYy.png",
-    "comprado_por": "",
-    "order": 11
-  },
-  {
     "id": 4,
     "name": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 127V",
     "link": "https://www.amazon.com.br/Micro-Ondas-Electrolux-Prata-Painel-Integrado/dp/B076XCSJ4Q/ref=asc_df_B076XCSJ4Q?mcid=25fe9ac257e13ec6a6bbbc1fe8100f19&tag=googleshopp00-20&linkCode=df0&hvadid=709864975911&hvpos=&hvnetw=g&hvrand=194740888225747306&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198558&hvtargid=pla-875186652437&psc=1&language=pt_BR&gad_source=1",
-    "image": "https://i.imgur.com/wLO643F.png",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_972378-MLU74244422783_012024-O.webp",
     "comprado_por": "",
-    "order": 12
+    "order": 11
   },
   {
     "id": 1,
@@ -104,41 +96,98 @@
     "link": "https://www.amazon.com.br/Conjunto-Utensílios-Cozinha-Silicone-Inox/dp/B0BVSFBFGS/ref=ci_mcx_mr_mp_m_d_sccl_1_7/137-8401235-6656421?pd_rd_w=gvuGZ&content-id=amzn1.sym.b797e144-4e8b-493f-8ca4-44e523f80695%3Aamzn1.symc.27c848cf-47ab-487b-bd07-91bc659e0119&pf_rd_p=b797e144-4e8b-493f-8ca4-44e523f80695&pf_rd_r=DSNT4YPN0YK7SYA24NHE&pd_rd_wg=6JZOS&pd_rd_r=e7aeb73f-a121-4554-9dc0-579daf3a43bd&pd_rd_i=B0BVSFBFGS&th=1",
     "image": "https://i.imgur.com/C1npQEB.png",
     "comprado_por": "",
-    "order": 13
+    "order": 12
+  },
+  {
+    "name": "Kit Abridor de Vinho Elétrico 4 Peças Com Saca Rolha Automático Bico Dosador, Cortador de Lacre, Rolha a Vácuo, Ideal Para Presentes e Comemorações",
+    "link": "https://www.amazon.com.br/Elétrico-Automático-Cortador-Presentes-Comemorações/dp/B0DMD75Y5Z/ref=sr_1_13",
+    "image": "https://m.media-amazon.com/images/I/51ml8mLqV9L._AC_SX679_.jpg",
+    "order": 13,
+    "id": "1759004878647"
+  },
+  {
+    "name": "Conjunto de Bowls Tigelas de Inox com Tampa Plástica Electrolux",
+    "link": "https://www.amazon.com.br/Conjunto-Bowls-Tigelas-Plástica-Electrolux/dp/B0C2ZNDWK6/ref=sr_1_6",
+    "image": "https://m.media-amazon.com/images/I/51hUmO15FhL._AC_SX679_.jpg",
+    "order": 14,
+    "id": "1759004904396"
+  },
+  {
+    "id": 5,
+    "name": "Redragon (1591) Headset Gamer Redragon Zeus X, Chroma Mk.II, RGB, Som Surround 7.1, Drivers 53mm, USB, Preto e Vermelho - H510-RGB",
+    "link": "https://www.kabum.com.br/produto/227818/headset-gamer-redragon-zeus-x-chroma-mk-ii-rgb-som-surround-7-1-drivers-53mm-usb-preto-e-vermelho-h510-rgb",
+    "image": "https://i.imgur.com/qSW6ZYy.png",
+    "comprado_por": "",
+    "order": 15
+  },
+  {
+    "name": "Headset Gamer Logitech G335 com Almofadas com Espuma de Memória, Design Leve e Conexão 3,5mm para PC, PlayStation, Xbox, Nintendo Switch e Mobile - Branco",
+    "link": "https://www.amazon.com.br/Headset-Logitech-Almofadas-PlayStation-Nintendo/dp/B08KKZ8S36/ref=sr_1_1_sspa",
+    "image": "https://m.media-amazon.com/images/I/71pR5h7q9RS._AC_SX679_.jpg",
+    "order": 16,
+    "id": "1759004537529"
   },
   {
     "name": "Cadeira Gamer Escritório Reclinável Ergonômica Giratória Com Rodinhas X-on - Vermelha",
     "link": "https://www.kabum.com.br/produto/911444/cadeira-gamer-escritorio-reclinavel-ergonomica-giratoria-com-rodinhas-x-on-vermelha",
     "image": "https://i.imgur.com/2rA2Bwm.png",
-    "order": 14,
+    "order": 17,
     "id": "1758960924083"
+  },
+  {
+    "name": "Cadeira Gamer SuperFrame Pegasus, Reclinável, 2D, Branco e Azul, SF-CH-PGR2DWBL",
+    "link": "https://www.terabyteshop.com.br/produto/36126/cadeira-gamer-superframe-pegasus-reclinavel-2d-branco-e-azul-sf-ch-pgr2dwbl",
+    "image": "https://img.terabyteshop.com.br/produto/g/cadeira-gamer-superframe-pegasus-reclinavel-2d-branco-e-azul-sf-ch-pgr2dwbl_237923.jpg",
+    "order": 18,
+    "id": "1759003551153"
   },
   {
     "name": "Caixa de Som Redragon GS500 Stentor, LED, 3W x 2, P2 - GS500",
     "link": "https://www.kabum.com.br/produto/109214/caixa-de-som-redragon-gs500-stentor-led-3w-x-2-p2-gs500",
     "image": "https://i.imgur.com/HG71Q9y.png",
-    "order": 15,
+    "order": 19,
     "id": "1758961058684"
   },
   {
-    "name": "Tyranny of Dragons (D&d Adventure Book Combines Hoard of the Dragon Queen + the Rise of Tiamat)",
-    "link": "https://www.amazon.com.br/Tyranny-Dragons-Adventure-Combines-Dragon/dp/0786968656/ref=sr_1_10?__mk_pt_BR=ÅMÅŽÕÑ&crid=1WZ8JPMQ1TD2B&dib=eyJ2IjoiMSJ9.ZhA8IM5M1HFmvj9FR9J9EVq6YNGhNNbnkBl3_YtMYtptO-172wE50x8_vurGastO91sYMLxcnUAXN8j3EowWq8T_yomVJ_0RWmDl-FZLrJHZDk9g5isXp7MZcrNM5Tfoq6e8DjDEnWA1I9Y31QwIcAZs3YoGdlIKjjUts3iiQqrMnr6D7cdcuzyAMvU0LIXQMF1Td8HCH2THwd0_xeaBSS2-yI4xOoU-WdBINt2vVucaiCBxleQhlsAdoleVrop0ZEV4joOF5i6ChfT1jnyofuco3P781RKX-t0YqW0Bhx0.x_s693W1c_CunNTr7y7BJ1DP8rcEaUyx1CL85WdLcP0&dib_tag=se&keywords=dnd&qid=1758961830&sprefix=dnd%2Caps%2C310&sr=8-10",
-    "image": "https://i.imgur.com/Bw0wxMs.jpeg",
-    "order": 16,
+    "name": "Dungeons & Dragons Rpg: Players Handbook Hard Cover (2024)",
+    "link": "https://www.amazon.com.br/Dungeons-Dragons-Rpg-Players-Handbook/dp/0786969512",
+    "image": "https://m.media-amazon.com/images/I/61NG6ZsaRyL._AC_SX679_.jpg",
+    "order": 20,
     "id": "1758961958631"
+  },
+  {
+    "name": "Dungeons & Dragons Rpg: Dungeon Masters Guide Hard Cover (2024)",
+    "link": "https://www.amazon.com.br/Dungeons-Dragons-Rpg-Dungeon-Masters/dp/0786969520/ref=pd_bxgy_d_sccl_1/142-8861971-5583765",
+    "image": "https://m.media-amazon.com/images/I/71zARIwRVNL._AC_SX679_.jpg",
+    "order": 21,
+    "id": "1759003405788"
+  },
+  {
+    "name": "Mordenkainen Presents: Monsters of the Multiverse (Dungeons & Dragons Book) ",
+    "link": "https://www.amazon.com.br/Mordenkainen-Presents-Monsters-Multiverse-Dungeons/dp/0786967870/ref=sr_1_9",
+    "image": "https://m.media-amazon.com/images/I/81g-Tq7stuL._SY342_.jpg",
+    "order": 22,
+    "id": "1759003480595"
   },
   {
     "name": "Miniaturas Tiamat RPG Personagens Dungeons And Dragons DND D&D",
     "link": "https://www.amazon.com.br/Miniaturas-Tiamat-Personagens-Dungeons-Dragons/dp/B0CVF7S8ZM/ref=ci_mcx_mr_mp_m_d_sccl_1_1/137-8401235-6656421?pd_rd_w=pWVjM&content-id=amzn1.sym.b797e144-4e8b-493f-8ca4-44e523f80695:amzn1.symc.27c848cf-47ab-487b-bd07-91bc659e0119&pf_rd_p=b797e144-4e8b-493f-8ca4-44e523f80695&pf_rd_r=NJRZBRWA7QFAT5BCSKZK&pd_rd_wg=wojHc&pd_rd_r=35e9c22b-e700-4738-b800-b7fdd106d17a&pd_rd_i=B0CVF7S8ZM&psc=1",
     "image": "https://i.imgur.com/IcqsDDh.png",
-    "order": 17,
+    "order": 23,
     "id": "1758962186328"
   },
   {
     "name": "Miniaturas Personagens Baldur's Gate 3 RPG Tabuleiro D&D (Cinza)",
     "link": "https://www.amazon.com.br/Miniaturas-Personagens-Baldurs-Tabuleiro-Cinza/dp/B0D1J6QRKY/ref=pd_bxgy_d_sccl_2/137-8401235-6656421?pd_rd_w=ma7Tm&content-id=amzn1.sym.383da3a7-6575-48e0-b3db-32c989c715fa&pf_rd_p=383da3a7-6575-48e0-b3db-32c989c715fa&pf_rd_r=YRDNX4G5T6D9GBK57PX0&pd_rd_wg=vNIhK&pd_rd_r=22c38a9b-4d5e-4bed-864f-4a095cc07967&pd_rd_i=B0D1J6QRKY&th=1",
     "image": "https://i.imgur.com/VxikDEG.jpeg",
-    "order": 18,
+    "order": 24,
     "id": "1758962226090"
+  },
+  {
+    "name": "Torres de Gato (Qualquer modelo para eles)",
+    "link": "https://www.amazon.com.br/s?k=torre+gatos+amazon&crid=291VY70URKY8M&sprefix=%2Caps%2C257&ref=nb_sb_ss_recent_2_0_recent",
+    "image": "https://i.imgur.com/1EXUGCk.png",
+    "order": 25,
+    "id": "1759007944194"
   }
 ]
