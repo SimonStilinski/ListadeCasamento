@@ -20,13 +20,16 @@ export default function handler(req, res) {
   }
 
   if (req.method === 'POST') {
+  const gifts = readGifts()  // lê os presentes atuais
+
   const newGift = {
     ...req.body,
     id: Date.now().toString() // garante ID único
   }
 
   gifts.push(newGift)
-  fs.writeFileSync(file, JSON.stringify(gifts, null, 2))
+  writeGifts(gifts)  // usa a função para salvar
+
   return res.status(201).json(newGift)
 }
 

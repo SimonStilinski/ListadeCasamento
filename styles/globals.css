@@ -25,6 +25,15 @@ ul.gift-list li {
   background-color: #fff;
 }
 
+ul.gift-list li h3 {
+  text-align: justify; /* centraliza o texto */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* limita a 3 linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 ul.gift-list li.comprado {
   background-color: #d1ffd6; /* verde clarinho se já foi comprado */
 }
@@ -109,6 +118,7 @@ main {
   box-sizing: border-box; /* evita que padding quebre o layout */
   max-width: 1200px; /* ou o tamanho que você quiser */
   margin: 0 auto; /* centraliza */
+  min-height: calc(100vh - 100px);
 }
 
 .gift-button {
@@ -127,4 +137,114 @@ main {
   display: flex;
   align-items: stretch; /* alinha verticalmente */
   gap: 10px; /* espaço entre o link e o botão */
+}
+
+html, body, #__next {
+    height: 100%;
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: url('/images/background.png') no-repeat center center;
+  background-size: cover; /* cobre toda a tela */
+  background-position: center;   /* centraliza a imagem */
+  background-repeat: no-repeat;  /* evita repetição da imagem */
+  background-attachment: fixed;
+  color: #111;
+
+}
+
+footer {
+  background: #0097b2;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;   /* fixa no rodapé */
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+ul.gift-list .pix-item {
+  grid-column: span 3; /* ocupa 3 colunas */
+}
+
+.pix-item h3 {
+  text-align: center;
+}
+
+.pix-item p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+ul.gift-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: start; /* <- importante, para que os itens não forçam altura igual */
+}
+
+ul.gift-list .pix-item {
+  grid-column: span 3; /* ocupa 3 colunas */
+  text-align: center;
+  align-self: start; /* <- faz a altura se ajustar ao conteúdo */
+}
+
+/* PIX item */
+.pix-item {
+  grid-column: span 3; /* ocupa 3 colunas do grid */
+  display: flex;
+  justify-content: center; /* centraliza o li horizontalmente */
+  gap: 20px;
+  align-items: stretch; /* para que o bloco de texto ocupe toda a altura */
+}
+
+/* Bloco interno da imagem + texto */
+.pix-content {
+  display: flex;
+  flex-direction: row; /* imagem e texto lado a lado */
+  align-items: stretch; /* altura igual para imagem e texto */
+  gap: 20px;
+  width: 100%;
+}
+
+/* Imagem PIX */
+.pix-image {
+  width: 50%;  /* ou 50% do li se preferir */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Texto PIX */
+.pix-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  flex: 1;
+  text-align: center; /* centraliza horizontalmente título e chave */
+}
+
+/* Título do PIX */
+.pix-text h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+}
+
+/* Texto principal justificado */
+.pix-text p.main-text {
+  margin: 0 0 8px 0;
+  text-align: justify;
+  text-align-last: center; /* última linha centralizada */
+  font-size: 1rem;
+}
+
+/* Chave PIX */
+.pix-text p.key {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
 }

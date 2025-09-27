@@ -48,31 +48,50 @@ export default function Home() {
       <main style={{ maxWidth: 1000, margin: '0 auto', padding: 20 }}>
         <h1>Lista de Presentes</h1>
         <p>Escolha um presente e siga o link externo para comprar. Depois marque como "Já comprei".</p>
-        <ul className="gift-list">
-          {gifts.map(g => (
-            <li key={g.id} className={g.comprado ? 'comprado' : ''}>
-              <div>
-                <img src={g.image} alt={g.name} className="gift-image" />
-                <h3>{g.name}</h3>
-               
-              </div>
-              <div class="Links">
-               <a  href={g.link}  target="_blank"  rel="noreferrer"  className="gift-link">  Ir para o 
-                link</a>
-              <button
-                className={`gift-button ${g.comprado ? 'desmarcar' : 'marcar'}`}
-                onClick={() => markBought(g.id)}
-                disabled={g.comprado}
-              >
-                {g.comprado ? 'Comprado' : 'Marcar como comprado'}
-              </button>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <footer style={{ marginTop: 24 }}>
-          
-        </footer>
+<ul className="gift-list">
+  {gifts.map((g, index) => (
+    index === 0 ? (
+      <li key={g.id} className="pix-item">
+  <div className="pix-content">
+    <img src={g.image} alt={g.name} className="pix-image" />
+    <div className="pix-text">
+      <h3 style={{ textAlign: 'center' }}>Pix!!! (Para facilitar a vida de todos)</h3>
+      <br></br>
+      <p className="main-text">
+      Sabemos que é muito em cima da hora para que possamos criar um presente super divertido
+      (Nem mesmo os noivos conseguiram pensar na lista de presente completa), e por esse motivo
+      achamos que seria melhor para todo mundo a opção do pix. Isso permite que nós mesmos
+      possamos pensar com cuidado no que precisamos e queremos, então estamos disponibilisando 
+        o QRCode e a chave:
+    </p>
+      <br></br>
+      <p style={{ fontWeight: 'bold' }}>gm.massucci@gmail.com</p>
+    </div>
+  </div>
+</li>
+    ) : (
+      <li key={g.id} className={g.comprado ? 'comprado' : ''}>
+        <div>
+          <img src={g.image} alt={g.name} className="gift-image" />
+          <h3>{g.name}</h3>
+        </div>
+        <div className="Links">
+          <a href={g.link} target="_blank" rel="noreferrer" className="gift-link">
+            Ir para o link
+          </a>
+          <button
+            className={`gift-button ${g.comprado ? 'desmarcar' : 'marcar'}`}
+            onClick={() => markBought(g.id)}
+            disabled={g.comprado}
+          >
+            {g.comprado ? 'Comprado' : 'Marcar como comprado'}
+          </button>
+        </div>
+      </li>
+    )
+  ))}
+</ul>
+      
       </main>
       <Footer />
     </>

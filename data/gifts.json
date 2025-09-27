@@ -9,7 +9,7 @@
   },
   {
     "id": 6,
-    "name": "Roupas Nerd ",
+    "name": "Roupas e Artigos Nerds",
     "link": "https://www.piticas.com.br/camisetas?gad_source=1&gad_campaignid=21417053408&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp2vP31Mo_UC8I_0Fb8LOsbQ1XhtyTYtknA0Ecj8zgUfRW01SExKGBYaAruoEALw_wcB",
     "image": "https://i.imgur.com/4L8mfqs.png",
     "comprado_por": "",
@@ -90,11 +90,27 @@
     "order": 11
   },
   {
-    "id": 13,
+    "id": 1,
     "name": "LUMAI Kit 10 Utensílios de Cozinha em Silicone e Aço Inox, Resistentes ao Calor e Antirriscos, Não Arranham, Conjunto Acessórios de Cozinha Completo com Espátula, Pegador, Concha, Colher – Vermelho",
     "link": "https://www.amazon.com.br/Conjunto-Utensílios-Cozinha-Silicone-Inox/dp/B0BVSFBFGS/ref=ci_mcx_mr_mp_m_d_sccl_1_7/137-8401235-6656421?pd_rd_w=gvuGZ&content-id=amzn1.sym.b797e144-4e8b-493f-8ca4-44e523f80695%3Aamzn1.symc.27c848cf-47ab-487b-bd07-91bc659e0119&pf_rd_p=b797e144-4e8b-493f-8ca4-44e523f80695&pf_rd_r=DSNT4YPN0YK7SYA24NHE&pd_rd_wg=6JZOS&pd_rd_r=e7aeb73f-a121-4554-9dc0-579daf3a43bd&pd_rd_i=B0BVSFBFGS&th=1",
     "image": "https://i.imgur.com/C1npQEB.png",
     "comprado_por": "",
     "order": 12
+  },
+  {
+    "id": 2,
+    "name": "Cadeira Gamer Escritório Reclinável Ergonômica Giratória Com Rodinhas X-on - Vermelha",
+    "link": "https://www.kabum.com.br/produto/911444/cadeira-gamer-escritorio-reclinavel-ergonomica-giratoria-com-rodinhas-x-on-vermelha",
+    "image": "https://i.imgur.com/2rA2Bwm.png",
+    "order": 13,
+    "id": "1758960924083"
+  },
+  {
+    "id": 3,
+    "name": "Caixa de Som Redragon GS500 Stentor, LED, 3W x 2, P2 - GS500",
+    "link": "https://www.kabum.com.br/produto/109214/caixa-de-som-redragon-gs500-stentor-led-3w-x-2-p2-gs500",
+    "image": "https://i.imgur.com/HG71Q9y.png",
+    "order": 14,
+    "id": "1758961058684"
   }
 ]
