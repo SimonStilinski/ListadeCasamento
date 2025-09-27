@@ -12,7 +12,7 @@ function writeGifts(gifts) {
   fs.writeFileSync(filePath, JSON.stringify(gifts, null, 2))
 }
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   const { id } = req.query
   const gifts = readGifts()
   const index = gifts.findIndex(g => g.id.toString() === id.toString())
@@ -22,9 +22,21 @@ export default function handler(req, res) {
   }
 
   if (req.method === 'PUT') {
+    // Atualiza o presente
     gifts[index] = { ...gifts[index], ...req.body }
     writeGifts(gifts)
-    return res.status(200).json(gifts[index]) // devolve atualizado
+
+    // Envia e-mail se for marcação de compra
+    if (req.body.email && req.body.comprado) {
+      try {
+        await sendConfirmationEmail(req.body.email, gifts[index])
+      } catch (err) {
+        console.error('Erro ao enviar email:', err)
+        return res.status(500).json({ error: 'Erro ao enviar email' })
+      }
+    }
+
+    return res.status(200).json(gifts[index])
   }
 
   if (req.method === 'DELETE') {
