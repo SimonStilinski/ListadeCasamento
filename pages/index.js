@@ -54,15 +54,11 @@ export default function Home() {
               <div>
                 <img src={g.image} alt={g.name} className="gift-image" />
                 <h3>{g.name}</h3>
-                <a
-  href={g.link}
-  target="_blank"
-  rel="noreferrer"
-  className="gift-link"
->
-  Ir para o link
-</a>
+               
               </div>
+              <div class="Links">
+               <a  href={g.link}  target="_blank"  rel="noreferrer"  className="gift-link">  Ir para o 
+                link</a>
               <button
                 className={`gift-button ${g.comprado ? 'desmarcar' : 'marcar'}`}
                 onClick={() => markBought(g.id)}
@@ -70,6 +66,7 @@ export default function Home() {
               >
                 {g.comprado ? 'Comprado' : 'Marcar como comprado'}
               </button>
+              </div>
             </li>
           ))}
         </ul>

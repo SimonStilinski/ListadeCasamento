@@ -34,17 +34,7 @@ ul.gift-list li:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.gift-button {
-  border: none;
-  border-radius: 6px;
-  padding: 6px 12px;
-  cursor: pointer;
-  color: #fff;
-}
 
-.gift-button.marcar { background-color: #0097b2; }
-.gift-button.desmarcar { background-color: #f9a825; }
-.gift-button.remover { background-color: #e53935; }
 
 header {
   background: #0097b2;
@@ -89,25 +79,28 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.gift-link {
-  display: inline-block;
-  padding: 10px 16px;
-  margin-top: 8px;
-  background-color: #4CAF50;
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
+/* Link e botão com o mesmo estilo base */
+.gift-link,
+.gift-button {
+  flex: 1;                 /* largura igual */
+  display: flex;           /* transforma em flex container */
+  align-items: center;     /* centraliza verticalmente */
+  justify-content: center; /* centraliza horizontalmente */
+  text-align: center;      /* centraliza múltiplas linhas de texto */
+  padding: 10px;           /* espaçamento interno */
   border-radius: 8px;
-  transition: background 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.gift-link:hover {
-  background-color: #45a049;
+
+/* Link verde */
+.gift-link {
+  background-color: #4CAF50;
+  color: #fff;
 }
 
-.gift-link:active {
-  background-color: #3e8e41;
-}
+
 
 main {
   padding-top: 100px !important; /* ajusta conforme a altura do header */
@@ -116,4 +109,22 @@ main {
   box-sizing: border-box; /* evita que padding quebre o layout */
   max-width: 1200px; /* ou o tamanho que você quiser */
   margin: 0 auto; /* centraliza */
+}
+
+.gift-button {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.gift-link:hover { background-color: #45a049; }
+.gift-link:active { background-color: #3e8e41; }
+.gift-button.desmarcar { background-color: #f9a825; }
+.gift-button.remover   { background-color: #e53935; }
+.gift-button.marcar    { background-color: #0097b2; }
+
+.Links {
+  display: flex;
+  align-items: stretch; /* alinha verticalmente */
+  gap: 10px; /* espaço entre o link e o botão */
 }
