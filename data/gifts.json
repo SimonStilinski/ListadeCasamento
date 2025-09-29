@@ -64,7 +64,8 @@
     "link": "https://www.amazon.com.br/Chaleira-Elétrica-Electrolux-Efficient-EEK10/dp/B09CBXQFYY/ref=asc_df_B09CBTSBQL?mcid=9a1c2ef68abd372584a12d14a56c057e&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=10216206591222736554&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198558&hvtargid=pla-1519241764002&language=pt_BR&gad_source=1&th=1",
     "image": "https://i.imgur.com/FziJR3A.png",
     "comprado_por": "",
-    "order": 8
+    "order": 8,
+    "comprado": true
   },
   {
     "id": 10,
@@ -80,7 +81,8 @@
     "link": "https://www.amazon.com.br/Sanduicheira-Grill-Britânia-BGR16-Redstone/dp/B0CJ3R1537/ref=asc_df_B0CJ3R1537?mcid=10d76c7a47d73011b746190a13f6b8d3&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=14861761981018466749&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198558&hvtargid=pla-2266804821818&psc=1&language=pt_BR&gad_source=1",
     "image": "https://i.imgur.com/j9K7WkN.png",
     "comprado_por": "",
-    "order": 10
+    "order": 10,
+    "comprado": true
   },
   {
     "id": 4,
